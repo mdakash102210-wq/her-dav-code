@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background: url(images/developer.png), url(images/header_bg.png), #fff8f3;
+  background-position: 50px 30px, right bottom;
+  background-repeat: no-repeat;
+  background-size: 70px, 650px;
+}
+.about-card .cord {
+  width: 150px;
+}
+.about-card .cord p {
+  color: #757575;
+}
+.text-Two input,
+textarea {
+  width: 100%;
+
+  background: white;
+  margin-bottom: 24px;
+  padding: 10px;
+  font-size: 16px;
+  padding: 25px;
+  border-radius: 5px;
+}
+.text-Two input {
+  height: 64px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+  border: 1px solid black;
+}
+button {
+  border: 1px solid black;
+}
